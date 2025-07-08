@@ -1,14 +1,14 @@
 #!/bin/bash
 
 # Set the path to the parent folder
-FOLDER="/Users/lyuk/Downloads/cospectral-tournaments"
+FOLDER="/Users/lyuk/Downloads/Cospectral-Tournament"
 
 # Change to that directory
 cd "$FOLDER" || { echo "Folder not found: $FOLDER"; exit 1; }
 
 # Infinite loop to check and push every 10 minutes
 while true; do
-    echo "[$(date)] Checking for changes in cospectral-tournaments..."
+    echo "[$(date)] Checking for changes in Cospectral-Tournaments..."
 
     # Stage all changes
     git add .
@@ -22,6 +22,6 @@ while true; do
         echo "Pushed changes to GitHub."
     fi
 
-    echo "Sleeping for 1 second..."
-    sleep 1
+    echo "Sleeping for 1 minute..."
+    sleep 60
 done
