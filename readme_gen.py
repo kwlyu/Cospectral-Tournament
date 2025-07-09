@@ -493,25 +493,29 @@ def results_to_md(results, found_orders, current_progress_info, completed_ns_in_
                 lines.append(f"### Cospectral BUT NOT Switching Equivalent (NO classes: {len(results[n]['no'])})\n")
                 no_polys = sorted(results[n]['no']) # Sort for consistent output
 
-                # Gather blocks
+                # Align blocks
                 for i in range(0, len(no_polys), MAX_POLYS_PER_GATHER_BLOCK):
                     current_block_polys = no_polys[i:i + MAX_POLYS_PER_GATHER_BLOCK]
 
                     lines.append("```math")
-                    lines.append("\\begin{align*}")
+                    lines.append("\\begin{align}")
                     
                     for poly in current_block_polys:
-                        # Ensure all x^n become x^{n}
-                        formatted_poly = re.sub(r"x\^(\d+)", r"x^{\1}", poly)
+                        # Remove asterisks for multiplication
+                        poly = poly.replace("*", "")
 
-                        # Insert alignment markers (&) before each '+' or '-' for aligning coefficients
-                        # Also, start with & to align the first term
-                        formatted_poly = re.sub(r"([+-])", r" &\1 ", formatted_poly)
-                        formatted_poly = "& " + formatted_poly.strip()
+                        # Convert x^10 -> x^{10}
+                        poly = re.sub(r"x\^(\d+)", r"x^{\1}", poly)
 
-                        lines.append(f"{formatted_poly} \\\\")
+                        # Insert alignment markers at + and - (but keep unary minus untouched at start)
+                        poly = re.sub(r"(?<!^)([+-])", r" &\1 ", poly)
+
+                        # Start with & to align all lines at the first term
+                        poly = "& " + poly.strip()
+
+                        lines.append(f"{poly} \\\\")
                     
-                    lines.append("\\end{align*}")
+                    lines.append("\\end{align}")
                     lines.append("```")
                     lines.append("\n")  # Blank line for readability
 
