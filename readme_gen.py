@@ -498,7 +498,7 @@ def results_to_md(results, found_orders, current_progress_info, completed_ns_in_
                     current_block_polys = no_polys[i:i + MAX_POLYS_PER_GATHER_BLOCK]
                     lines.append("$$ \\begin{gather*}")
                     # Use {poly} for x^10 to display properly
-                    lines.extend([f"{poly} \\ \\" for poly in current_block_polys])
+                    lines.extend([f"{poly} \\\\" for poly in current_block_polys])
                     lines.append("\\end{gather*} $$")
                     lines.append("\n") # Blank line for readability
 
