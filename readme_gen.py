@@ -498,12 +498,23 @@ def results_to_md(results, found_orders, current_progress_info, completed_ns_in_
                     current_block_polys = no_polys[i:i + MAX_POLYS_PER_GATHER_BLOCK]
 
                     lines.append("```math")
-                    lines.append("\\begin{gather*}")
-                    # Use {poly} for x^10 to display properly
-                    lines.extend([f"{poly} \\\\" for poly in current_block_polys])
-                    lines.append("\\end{gather*}")
+                    lines.append("\\begin{align*}")
+                    
+                    for poly in current_block_polys:
+                        # Ensure all x^n become x^{n}
+                        formatted_poly = re.sub(r"x\^(\d+)", r"x^{\1}", poly)
+
+                        # Insert alignment markers (&) before each '+' or '-' for aligning coefficients
+                        # Also, start with & to align the first term
+                        formatted_poly = re.sub(r"([+-])", r" &\1 ", formatted_poly)
+                        formatted_poly = "& " + formatted_poly.strip()
+
+                        lines.append(f"{formatted_poly} \\\\")
+                    
+                    lines.append("\\end{align*}")
                     lines.append("```")
-                    lines.append("\n") # Blank line for readability
+                    lines.append("\n")  # Blank line for readability
+
 
             lines.append("</details>\n")
 
