@@ -1,6 +1,7 @@
 from sage.all import *
 from itertools import combinations
 from collections import defaultdict
+from extracted_bad_polys import *
 
 # Define the polynomial variable 'x' in the global scope
 R = PolynomialRing(QQ, 'x')
@@ -220,3 +221,24 @@ def test_partial_transpose_for_bad_polys(bad_polys):
 
     return singular_tournaments
 
+
+
+orders_and_polys = [
+    (7, bad_polys7),
+    (8, bad_polys8),
+    (9, bad_polys9),
+    (10, bad_polys10)
+]
+
+for n, bad_polys in orders_and_polys:
+    filename = f"partial_transpose_results_order_{n}.txt"
+    with open(filename, "w") as f:
+        # Redirect print to file for this block
+        import sys
+        orig_stdout = sys.stdout
+        sys.stdout = f
+        try:
+            test_partial_transpose_for_bad_polys(bad_polys)
+        finally:
+            sys.stdout = orig_stdout
+    print(f"Results for order {n} written to {filename}")
