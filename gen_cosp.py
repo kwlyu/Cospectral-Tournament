@@ -230,8 +230,11 @@ orders_and_polys = [
     (10, bad_polys10)
 ]
 
+output_dir = "generate_cospectral_outputs"
+os.makedirs(output_dir, exist_ok=True)
+
 for n, bad_polys in orders_and_polys:
-    filename = f"generate_cospectral_outputs/partial_transpose_results_order_{n}.txt"
+    filename = os.path.join(output_dir, f"partial_transpose_results_order_{n}.txt")
     with open(filename, "w") as f:
         # Redirect print to file for this block
         import sys
