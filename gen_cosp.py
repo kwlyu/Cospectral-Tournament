@@ -231,7 +231,7 @@ orders_and_polys = [
 ]
 
 for n, bad_polys in orders_and_polys:
-    filename = f"partial_transpose_results_order_{n}.txt"
+    filename = f"generate_cospectral_outputs/partial_transpose_results_order_{n}.txt"
     with open(filename, "w") as f:
         # Redirect print to file for this block
         import sys
