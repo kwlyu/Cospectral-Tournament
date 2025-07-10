@@ -1139,3 +1139,305 @@ x^9 + 36*x^7 + 334*x^5 + 756*x^3 + 409*x
 [0 1 1 1 1 1 0 0 0]
 [0 1 1 0 1 1 1 0 0]
 [1 1 1 1 0 1 1 1 0]
+  - Singular Tournament Adjacency Matrix:
+[0 0 0 0 0 0 1 1 0]
+[1 0 0 0 0 0 0 0 1]
+[1 1 0 0 0 0 0 0 0]
+[1 1 1 0 0 0 0 1 0]
+[1 1 1 1 0 0 0 0 1]
+[1 1 1 1 1 0 0 0 0]
+[0 1 1 1 1 1 0 0 0]
+[0 1 1 0 1 1 1 0 0]
+[1 0 1 1 0 1 1 1 0]
+  - Singular Tournament Adjacency Matrix:
+[0 0 0 0 0 0 0 0 0]
+[1 0 0 0 0 0 1 1 0]
+[1 1 0 0 0 0 0 1 1]
+[1 1 1 0 0 0 0 0 1]
+[1 1 1 1 0 0 0 0 0]
+[1 1 1 1 1 0 0 0 0]
+[1 0 1 1 1 1 0 0 0]
+[1 0 0 1 1 1 1 0 0]
+[1 1 0 0 1 1 1 1 0]
+  - Singular Tournament Adjacency Matrix:
+[0 0 0 0 0 0 0 1 1]
+[1 0 0 0 0 0 0 0 0]
+[1 1 0 0 0 0 1 1 0]
+[1 1 1 0 0 0 0 0 0]
+[1 1 1 1 0 0 0 0 1]
+[1 1 1 1 1 0 0 0 0]
+[1 1 0 1 1 1 0 0 0]
+[0 1 0 1 1 1 1 0 0]
+[0 1 1 1 0 1 1 1 0]
+  Proportion of tournaments in this class that can be generated: 99.609% (charpoly: x^9 + 36*x^7 + 334*x^5 + 756*x^3 + 409*x)
+
+🔍 Checking charpoly #31/139 (order 9)
+x^9 + 36*x^7 + 334*x^5 + 820*x^3 + 345*x
+  After switching equivalence, 2 tournament(s) remain.
+  After partial transpose, 2 tournament(s) remain.
+⚠️ Found 2 tournament(s) in this class that cannot be realized by switching or partial transpose:
+  - Singular Tournament Adjacency Matrix:
+[0 0 0 0 0 0 0 0 0]
+[1 0 0 0 0 0 0 0 1]
+[1 1 0 0 0 0 0 0 0]
+[1 1 1 0 0 0 1 1 0]
+[1 1 1 1 0 0 0 1 0]
+[1 1 1 1 1 0 0 0 0]
+[1 1 1 0 1 1 0 0 0]
+[1 1 1 0 0 1 1 0 0]
+[1 0 1 1 1 1 1 1 0]
+  - Singular Tournament Adjacency Matrix:
+[0 0 0 0 0 0 0 0 1]
+[1 0 0 0 0 0 0 0 0]
+[1 1 0 0 0 0 0 0 1]
+[1 1 1 0 0 0 1 1 0]
+[1 1 1 1 0 0 0 1 0]
+[1 1 1 1 1 0 0 0 0]
+[1 1 1 0 1 1 0 0 0]
+[1 1 1 0 0 1 1 0 0]
+[0 1 0 1 1 1 1 1 0]
+  Proportion of tournaments in this class that can be generated: 96.875% (charpoly: x^9 + 36*x^7 + 334*x^5 + 820*x^3 + 345*x)
+
+🔍 Checking charpoly #32/139 (order 9)
+x^9 + 36*x^7 + 334*x^5 + 820*x^3 + 89*x
+  After switching equivalence, 2 tournament(s) remain.
+  After partial transpose, 2 tournament(s) remain.
+⚠️ Found 2 tournament(s) in this class that cannot be realized by switching or partial transpose:
+  - Singular Tournament Adjacency Matrix:
+[0 0 0 0 0 0 1 0 0]
+[1 0 0 0 0 0 0 0 0]
+[1 1 0 0 0 0 0 1 0]
+[1 1 1 0 0 0 0 1 0]
+[1 1 1 1 0 0 0 0 0]
+[1 1 1 1 1 0 0 0 1]
+[0 1 1 1 1 1 0 0 0]
+[1 1 0 0 1 1 1 0 1]
+[1 1 1 1 1 0 1 0 0]
+  - Singular Tournament Adjacency Matrix:
+[0 0 0 0 0 0 0 0 0]
+[1 0 0 0 0 0 0 1 0]
+[1 1 0 0 0 0 0 0 0]
+[1 1 1 0 0 0 1 0 1]
+[1 1 1 1 0 0 0 0 0]
+[1 1 1 1 1 0 0 0 0]
+[1 1 1 0 1 1 0 0 0]
+[1 0 1 1 1 1 1 0 0]
+[1 1 1 0 1 1 1 1 0]
+  Proportion of tournaments in this class that can be generated: 99.609% (charpoly: x^9 + 36*x^7 + 334*x^5 + 820*x^3 + 89*x)
+
+🔍 Checking charpoly #33/139 (order 9)
+x^9 + 36*x^7 + 334*x^5 + 884*x^3 + 281*x
+  After switching equivalence, 14 tournament(s) remain.
+  After partial transpose, 14 tournament(s) remain.
+⚠️ Found 14 tournament(s) in this class that cannot be realized by switching or partial transpose:
+  - Singular Tournament Adjacency Matrix:
+[0 0 0 0 0 0 1 0 0]
+[1 0 0 0 0 0 0 1 0]
+[1 1 0 0 0 0 0 0 0]
+[1 1 1 0 0 0 0 0 1]
+[1 1 1 1 0 0 0 0 0]
+[1 1 1 1 1 0 0 0 0]
+[0 1 1 1 1 1 0 0 0]
+[1 0 1 1 1 1 1 0 0]
+[1 1 1 0 1 1 1 1 0]
+  - Singular Tournament Adjacency Matrix:
+[0 0 0 0 0 0 1 0 0]
+[1 0 0 0 0 0 0 1 0]
+[1 1 0 0 0 0 0 0 0]
+[1 1 1 0 0 0 0 0 0]
+[1 1 1 1 0 0 0 0 1]
+[1 1 1 1 1 0 0 0 0]
+[0 1 1 1 1 1 0 0 0]
+[1 0 1 1 1 1 1 0 0]
+[1 1 1 1 0 1 1 1 0]
+  - Singular Tournament Adjacency Matrix:
+[0 0 0 0 0 0 1 0 0]
+[1 0 0 0 0 0 0 1 0]
+[1 1 0 0 0 0 0 1 0]
+[1 1 1 0 0 0 0 0 0]
+[1 1 1 1 0 0 0 0 0]
+[1 1 1 1 1 0 0 0 1]
+[0 1 1 1 1 1 0 0 0]
+[1 0 0 1 1 1 1 0 0]
+[1 1 1 1 1 0 1 1 0]
+  - Singular Tournament Adjacency Matrix:
+[0 0 0 0 0 0 1 0 0]
+[1 0 0 0 0 0 0 1 1]
+[1 1 0 0 0 0 0 1 0]
+[1 1 1 0 0 0 0 0 1]
+[1 1 1 1 0 0 0 0 0]
+[1 1 1 1 1 0 0 0 0]
+[0 1 1 1 1 1 0 0 0]
+[1 0 0 1 1 1 1 0 0]
+[1 0 1 0 1 1 1 1 0]
+  - Singular Tournament Adjacency Matrix:
+[0 0 0 0 0 0 1 1 0]
+[1 0 0 0 0 0 0 0 0]
+[1 1 0 0 0 0 0 0 1]
+[1 1 1 0 0 0 0 1 1]
+[1 1 1 1 0 0 0 0 0]
+[1 1 1 1 1 0 0 0 0]
+[0 1 1 1 1 1 0 0 0]
+[0 1 1 0 1 1 1 0 0]
+[1 1 0 0 1 1 1 1 0]
+  - Singular Tournament Adjacency Matrix:
+[0 0 0 0 0 0 1 1 0]
+[1 0 0 0 0 0 0 0 0]
+[1 1 0 0 0 0 0 0 1]
+[1 1 1 0 0 0 0 0 0]
+[1 1 1 1 0 0 0 1 0]
+[1 1 1 1 1 0 0 0 0]
+[0 1 1 1 1 1 0 0 0]
+[0 1 1 1 0 1 1 0 0]
+[1 1 0 1 1 1 1 1 0]
+  - Singular Tournament Adjacency Matrix:
+[0 0 0 0 0 0 1 1 0]
+[1 0 0 0 0 0 0 0 1]
+[1 1 0 0 0 0 0 0 0]
+[1 1 1 0 0 0 0 0 1]
+[1 1 1 1 0 0 0 1 0]
+[1 1 1 1 1 0 0 0 0]
+[0 1 1 1 1 1 0 0 0]
+[0 1 1 1 0 1 1 0 0]
+[1 0 1 0 1 1 1 1 0]
+  - Singular Tournament Adjacency Matrix:
+[0 0 0 0 0 0 1 1 0]
+[1 0 0 0 0 0 0 0 0]
+[1 1 0 0 0 0 0 0 0]
+[1 1 1 0 0 0 0 0 1]
+[1 1 1 1 0 0 0 1 0]
+[1 1 1 1 1 0 0 0 0]
+[0 1 1 1 1 1 0 0 0]
+[0 1 1 1 0 1 1 0 1]
+[1 1 1 0 1 1 1 0 0]
+  - Singular Tournament Adjacency Matrix:
+[0 0 0 0 0 0 1 0 0]
+[1 0 0 0 0 0 0 1 0]
+[1 1 0 0 0 0 0 0 0]
+[1 1 1 0 0 0 0 0 0]
+[1 1 1 1 0 0 0 1 0]
+[1 1 1 1 1 0 0 0 1]
+[0 1 1 1 1 1 0 0 0]
+[1 0 1 1 0 1 1 0 1]
+[1 1 1 1 1 0 1 0 0]
+  - Singular Tournament Adjacency Matrix:
+[0 0 0 0 0 0 0 1 0]
+[1 0 0 0 0 0 1 0 1]
+[1 1 0 0 0 0 0 0 0]
+[1 1 1 0 0 0 0 0 0]
+[1 1 1 1 0 0 0 0 0]
+[1 1 1 1 1 0 0 0 1]
+[1 0 1 1 1 1 0 0 0]
+[0 1 1 1 1 1 1 0 0]
+[1 0 1 1 1 0 1 1 0]
+  - Singular Tournament Adjacency Matrix:
+[0 0 0 0 0 0 0 1 0]
+[1 0 0 0 0 0 1 0 0]
+[1 1 0 0 0 0 0 0 1]
+[1 1 1 0 0 0 0 0 0]
+[1 1 1 1 0 0 0 0 0]
+[1 1 1 1 1 0 0 0 0]
+[1 0 1 1 1 1 0 0 1]
+[0 1 1 1 1 1 1 0 0]
+[1 1 0 1 1 1 0 1 0]
+  - Singular Tournament Adjacency Matrix:
+[0 0 0 0 0 0 0 1 0]
+[1 0 0 0 0 0 1 0 0]
+[1 1 0 0 0 0 0 0 0]
+[1 1 1 0 0 0 0 0 1]
+[1 1 1 1 0 0 0 0 0]
+[1 1 1 1 1 0 0 0 0]
+[1 0 1 1 1 1 0 0 1]
+[0 1 1 1 1 1 1 0 0]
+[1 1 1 0 1 1 0 1 0]
+  - Singular Tournament Adjacency Matrix:
+[0 0 0 0 0 0 0 1 0]
+[1 0 0 0 0 0 0 0 0]
+[1 1 0 0 0 0 1 0 0]
+[1 1 1 0 0 0 0 0 1]
+[1 1 1 1 0 0 0 0 0]
+[1 1 1 1 1 0 0 0 0]
+[1 1 0 1 1 1 0 0 0]
+[0 1 1 1 1 1 1 0 0]
+[1 1 1 0 1 1 1 1 0]
+  - Singular Tournament Adjacency Matrix:
+[0 0 0 0 0 0 0 1 0]
+[1 0 0 0 0 0 0 1 1]
+[1 1 0 0 0 0 0 0 0]
+[1 1 1 0 0 0 1 0 0]
+[1 1 1 1 0 0 0 0 1]
+[1 1 1 1 1 0 0 0 0]
+[1 1 1 0 1 1 0 0 0]
+[0 0 1 1 1 1 1 0 0]
+[1 0 1 1 0 1 1 1 0]
+  Proportion of tournaments in this class that can be generated: 99.609% (charpoly: x^9 + 36*x^7 + 334*x^5 + 884*x^3 + 281*x)
+
+🔍 Checking charpoly #34/139 (order 9)
+x^9 + 36*x^7 + 334*x^5 + 948*x^3 + 473*x
+  After switching equivalence, 3 tournament(s) remain.
+  After partial transpose, 3 tournament(s) remain.
+⚠️ Found 3 tournament(s) in this class that cannot be realized by switching or partial transpose:
+  - Singular Tournament Adjacency Matrix:
+[0 0 0 0 0 0 1 0 0]
+[1 0 0 0 0 0 0 0 0]
+[1 1 0 0 0 0 0 0 1]
+[1 1 1 0 0 0 0 0 0]
+[1 1 1 1 0 0 0 1 0]
+[1 1 1 1 1 0 0 0 0]
+[0 1 1 1 1 1 0 0 0]
+[1 1 1 1 0 1 1 0 0]
+[1 1 0 1 1 1 1 1 0]
+  - Singular Tournament Adjacency Matrix:
+[0 0 0 0 0 0 1 1 0]
+[1 0 0 0 0 0 0 0 0]
+[1 1 0 0 0 0 0 0 1]
+[1 1 1 0 0 0 0 1 0]
+[1 1 1 1 0 0 0 0 0]
+[1 1 1 1 1 0 0 0 0]
+[0 1 1 1 1 1 0 0 0]
+[0 1 1 0 1 1 1 0 0]
+[1 1 0 1 1 1 1 1 0]
+  - Singular Tournament Adjacency Matrix:
+[0 0 0 0 0 0 0 1 0]
+[1 0 0 0 0 0 1 0 0]
+[1 1 0 0 0 0 0 0 0]
+[1 1 1 0 0 0 0 0 1]
+[1 1 1 1 0 0 0 0 0]
+[1 1 1 1 1 0 0 0 0]
+[1 0 1 1 1 1 0 0 0]
+[0 1 1 1 1 1 1 0 0]
+[1 1 1 0 1 1 1 1 0]
+  Proportion of tournaments in this class that can be generated: 99.609% (charpoly: x^9 + 36*x^7 + 334*x^5 + 948*x^3 + 473*x)
+
+🔍 Checking charpoly #35/139 (order 9)
+x^9 + 36*x^7 + 350*x^5 + 1044*x^3 + 361*x
+  After switching equivalence, 2 tournament(s) remain.
+  After partial transpose, 2 tournament(s) remain.
+⚠️ Found 2 tournament(s) in this class that cannot be realized by switching or partial transpose:
+  - Singular Tournament Adjacency Matrix:
+[0 0 0 0 0 0 1 0 0]
+[1 0 0 0 0 0 0 1 0]
+[1 1 0 0 0 0 0 1 0]
+[1 1 1 0 0 0 0 0 1]
+[1 1 1 1 0 0 0 0 0]
+[1 1 1 1 1 0 0 0 1]
+[0 1 1 1 1 1 0 0 0]
+[1 0 0 1 1 1 1 0 0]
+[1 1 1 0 1 0 1 1 0]
+  - Singular Tournament Adjacency Matrix:
+[0 0 0 0 0 0 1 0 0]
+[1 0 0 0 0 0 0 1 0]
+[1 1 0 0 0 0 0 0 0]
+[1 1 1 0 0 0 0 1 0]
+[1 1 1 1 0 0 0 0 1]
+[1 1 1 1 1 0 0 0 1]
+[0 1 1 1 1 1 0 0 0]
+[1 0 1 0 1 1 1 0 0]
+[1 1 1 1 0 0 1 1 0]
+  Proportion of tournaments in this class that can be generated: 99.609% (charpoly: x^9 + 36*x^7 + 350*x^5 + 1044*x^3 + 361*x)
+
+🔍 Checking charpoly #36/139 (order 9)
+x^9 + 36*x^7 + 350*x^5 + 1044*x^3 + 617*x
+  After switching equivalence, 7 tournament(s) remain.
+  After partial transpose, 7 tournament(s) remain.
+⚠️ Found 7 tournament(s) in this class that cannot be realized by switching or partial transpose:
