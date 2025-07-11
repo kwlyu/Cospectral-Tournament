@@ -224,9 +224,9 @@ def test_partial_transpose_for_bad_polys(bad_polys):
 
 
 orders_and_polys = [
-    (7, bad_polys7),
-    (8, bad_polys8),
-    (9, bad_polys9),
+    # (7, bad_polys7),
+    # (8, bad_polys8),
+    # (9, bad_polys9),
     (10, bad_polys10)
 ]
 
