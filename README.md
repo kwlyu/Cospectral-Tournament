@@ -1,5 +1,5 @@
 ## No new results. (last change: 2025-07-08 13:46:38)
-_Last checked: 2025-07-10 22:40:17_
+_Last checked: 2025-07-10 22:41:17_
 
 # Cospectral vs Switching Equivalence Results
 
@@ -21,11 +21,11 @@ _Last checked: 2025-07-10 22:40:17_
 
 ## 📊 Current Progress (Order n = 11)
 
-> Generated 294200000/903753248 tournaments for n=11 (32.55%).
+> Generated 294300000/903753248 tournaments for n=11 (32.56%).
 
-Tournaments Generated: `█████████░░░░░░░░░░░░░░░░░░░░░` (294200000/903753248 - 32.55%)
-  Estimated Completion (Generation): 7d 5h 51m 52s
-  Rate (Generation): 58431.83 tourns/min
+Tournaments Generated: `█████████░░░░░░░░░░░░░░░░░░░░░` (294300000/903753248 - 32.56%)
+  Estimated Completion (Generation): 7d 5h 50m 4s
+  Rate (Generation): 58432.26 tourns/min
 
 
 Classes Checked: `░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░` (0/24473 - 0.00%)
